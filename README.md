@@ -3,7 +3,7 @@
   <div style="display: grid; grid-template-columns: auto auto auto auto auto auto; width: 100%; max-width: 500px;">
     <a title="About Me" href="https://developer.codemelted.com/CodeMelted" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/github.png"/></a>
     <a title="Raspberry Pi Project" href="https://developer.codemelted.com/codemelted_pi" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/raspberry-pi.png"/></a>
-    <a title="Embedded Module" href="https://developer.codemelted.com/codemelted_embedded" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/c.png"/></a>
+    <a title="Embedded Module" href="https://developer.codemelted.com/codemelted_embedded/docs" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/c.png"/></a>
     <a title="Terminal Module" href="https://developer.codemelted.com/codemelted_terminal" target="_self"><img style="height: 25px;" src="https://developer.codemelted.com/assets/images/icons/powershell.png"/></a>
     <a title="Fullstack Module" href="https://developer.codemelted.com/codemelted_fullstack/docs" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/javascript.png"/></a>
     <a title="Web Module" href="https://developer.codemelted.com/codemelted_web/docs" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/flutter.png"/></a>
