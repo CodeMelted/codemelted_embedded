@@ -13,6 +13,13 @@
 
 Welcome to the **CodeMelted Embedded Module** project. This project aims to implement the use cases from the **CodeMelted Developer** design allowing for a need of speed for an application. It will be developed with a C-style header file for easy integration into other projects. The implementation file will be in C++ to take full advantage of the Standard Template Library to reduce errors. A cmake file will be provided to allow for easy integration into your C/C++ application. This project will target Linux, Mac OS, and Windows operating systems. Later development will attempt to target Web Assembly.
 
+<center>
+  <a title="Support My Work" href="#">
+  <img id="btnSupport" style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/bmc-button.png"/>
+  </a>
+  <p>Please support my work if you find this module useful. Thank you.</p>
+</center>
+
 **Table of Contents**
 
 - [Getting started](#getting-started)
