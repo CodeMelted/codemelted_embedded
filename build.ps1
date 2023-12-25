@@ -51,7 +51,7 @@ function build([string[]]$params) {
     # Constants
     # -------------------------------------------------------------------------
     [string]$PROJ_NAME = "CodeMelted Fullstack Module"
-    [string]$GEN_HTML_PERL_SCRIPT = "/ProgramData/chocolatey/lib/lcov/tools/bin/genhtml"
+    # [string]$GEN_HTML_PERL_SCRIPT = "/ProgramData/chocolatey/lib/lcov/tools/bin/genhtml"
 
     # -------------------------------------------------------------------------
     # Helper Function
@@ -94,17 +94,17 @@ function build([string[]]$params) {
 
     message "Generating doxygen"
     doxygen theme/doxygen.cfg
-    [string]$htmlData = Get-Content -Path "docs/index.html"
-    $htmlData = $htmlData.Replace('<p>&lt;script src="https://developer.codemelted.com/assets/js/main.js"&gt;&lt;/script&gt; </p>', '')
-    $htmlData = $htmlData.Replace("</body>", "<script src='https://developer.codemelted.com/assets/js/main.js'></script></body>")
+    [string]$htmlData = Get-Content -Path "docs/index.html" -Raw
+    $htmlData = $htmlData.Replace('<p>&lt;script src="https://developer.codemelted.com/assets/js/codemelted_channel.js"&gt;&lt;/script&gt; </p>', '')
+    $htmlData = $htmlData.Replace("</body>", "<script src='https://developer.codemelted.com/assets/js/codemelted_channel.js'></script></body>")
     $htmlData | Out-File docs/index.html -Force
-    $doxygenCssData = Get-Content -Path "docs/doxygen.css"
+    $doxygenCssData = Get-Content -Path "docs/doxygen.css" -Raw
     $doxygenCssData = $STYLES.Replace("[DOXYGEN]", $doxygenCssData)
     $doxygenCssData | Out-File docs/doxygen.css -Force
     # Move-Item -Path coverage -Destination docs -Force
 
     message "$PROJ_NAME build completed"
 
-    
+
 }
 build $args
