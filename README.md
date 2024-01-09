@@ -1,6 +1,6 @@
 <center>
   <a title="Back to Codemelted Developer" href="https://developer.codemelted.com" target="_self"><img style="width: 100%; max-width: 300px;" src="https://developer.codemelted.com/assets/images/logos/developer-non-banner.png" /></a>
-  <div style="display: grid; grid-template-columns: auto auto auto auto auto; width: 100%; max-width: 500px;">
+  <div style="display: grid; grid-template-columns: auto auto auto auto auto; width: 100%; max-width: 300px;">
     <a title="Raspberry Pi Project" href="https://developer.codemelted.com/codemelted_pi" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/raspberry-pi.png"/></a>
     <a title="Embedded Module" href="https://developer.codemelted.com/codemelted_embedded" target="_self"><img style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/c.png"/></a>
     <a title="Terminal Module" href="https://developer.codemelted.com/codemelted_terminal" target="_self"><img style="height: 25px;" src="https://developer.codemelted.com/assets/images/icons/powershell.png"/></a>
@@ -9,12 +9,12 @@
   </div>
 </center>
 
-<h1><img style="height: 35px;" src="https://developer.codemelted.com/assets/images/icons/c.png" /> CodeMelted Embedded Module</h1>
+<h1><img style="height: 35px;" src="https://developer.codemelted.com/assets/images/icons/c++.png" /> CodeMelted Embedded Module</h1>
 
 Welcome to the **CodeMelted Embedded Module** project. This project aims to implement the use cases from the **CodeMelted Developer** design allowing for a need of speed for an application. It will be developed with a C-style header file for easy integration into other projects. The implementation file will be in C++ to take full advantage of the Standard Template Library to reduce errors. A cmake file will be provided to allow for easy integration into your C/C++ application. This project will target Linux, Mac OS, and Windows operating systems. Later development will attempt to target Web Assembly.
 
 <center>
-  <a title="Support My Work" href="#">
+  <a title="Support My Work" href="https://www.buymeacoffee.com/codemelted" target="_blank">
   <img id="btnSupport" style="height: 30px;" src="https://developer.codemelted.com/assets/images/icons/bmc-button.png"/>
   </a>
   <p>Please support my work if you find this module useful. Thank you.</p>
